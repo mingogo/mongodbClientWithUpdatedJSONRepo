@@ -13,14 +13,17 @@ import com.mteng.vo.updatedJSON.Option;
 import com.mteng.vo.updatedJSON.SubFactor;
 import com.mteng.vo.updatedJSON.SubFactor_InsideBusinessProfile;
 
+/**
+ * Build the "Entity" part of the JSON.
+ * @author mteng
+ *
+ */
 public class EntityBuilder {
-
 	private BusinessProfile businessProfileBuilder() {
 
 		BusinessProfile bp = new BusinessProfile();
 
 		List<Object> factors = new ArrayList<Object>(){
-
 			{
 				FactorsWithMidPoint fwm1 = new FactorsWithMidPoint();
 				fwm1.setId(837456784356L);
@@ -28,7 +31,6 @@ public class EntityBuilder {
 				fwm1.setLabel("Rating range High");
 				add(fwm1);
 
-				// FactorsWithMidPoint fwm2 = new FactorsWithMidPoint();
 				FactorWithInfluence fwm2 = new FactorWithInfluence();
 				fwm2.setId(837456784356L);
 				fwm2.setInfluence(2L);
@@ -38,7 +40,6 @@ public class EntityBuilder {
 		};
 
 		List<Object> subFactors = new ArrayList<Object>(){
-
 			{
 				SubFactor_InsideBusinessProfile sfbp1 = new SubFactor_InsideBusinessProfile();
 				sfbp1.setId(837456784356L);
@@ -47,7 +48,6 @@ public class EntityBuilder {
 				sfbp1.setLabel("Management Strategy");
 
 				ArrayList<Option> options1 = new ArrayList<Option>(){
-
 					{
 						Option o1 = new Option();
 						o1.setId(837456784356L);
@@ -74,7 +74,6 @@ public class EntityBuilder {
 				sfbp2.setLabel("Corporate Governance");
 
 				ArrayList<Option> options2 = new ArrayList<Option>(){
-
 					{
 						Option o1 = new Option();
 						o1.setId(837456784356L);
@@ -106,12 +105,9 @@ public class EntityBuilder {
 	 * @return
 	 */
 	private List<SubFactor> subFactorsBuilder() {
-
 		List<SubFactor> subfactors = new ArrayList<SubFactor>(){
-
 			{
 				ArrayList<Option> options1 = new ArrayList<Option>(){
-
 					{
 						Option o1 = new Option();
 						o1.setId(837456784356L);
@@ -138,11 +134,6 @@ public class EntityBuilder {
 				add(sf1);
 
 				ArrayList<Option> options2 = new ArrayList<Option>(){
-					/**
-					 * 
-					 */
-					private static final long serialVersionUID = 2497030117138899741L;
-
 					{
 						Option o1 = new Option();
 						o1.setId(837456784356L);

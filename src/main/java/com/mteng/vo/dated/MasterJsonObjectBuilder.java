@@ -1,4 +1,4 @@
-package com.mteng.json.vb;
+package com.mteng.vo.dated;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,6 +8,7 @@ import com.mteng.beans.PrettyPrints;
 
 /**
  * This class builds the JSON according to Katherine. 
+ * Note: this is dated. Refer to the package com.mteng.vo.updatedJSON for new one. 
  * @author mingogo
  */
 public class MasterJsonObjectBuilder {
@@ -30,10 +31,6 @@ public class MasterJsonObjectBuilder {
 		 */
 
 		final List<Option> options1 = new ArrayList<Option>(){
-			/**
-			 * 
-			 */
-			private static final long serialVersionUID = 1L;
 
 			{
 				Option option1 = new Option();

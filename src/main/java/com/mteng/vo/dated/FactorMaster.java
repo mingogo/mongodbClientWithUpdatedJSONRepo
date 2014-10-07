@@ -1,4 +1,4 @@
-package com.mteng.json.vb;
+package com.mteng.vo.dated;
 
 public class FactorMaster {
 	private Long id;
