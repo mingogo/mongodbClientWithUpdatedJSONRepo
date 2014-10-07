@@ -56,6 +56,7 @@ public class PropertyUtil {
 			environment = "local";
 		}
 
+		// TODO: Should add logger into the project. 
 		// logger.info("The current environment configurations are set for >" +  environment + "<");
 		// logger.info("The current environment configurations are set for >{0}< environment : " + environment);
 

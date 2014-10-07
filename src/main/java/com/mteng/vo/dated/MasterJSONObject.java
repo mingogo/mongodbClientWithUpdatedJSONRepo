@@ -1,4 +1,4 @@
-package com.mteng.json.vb;
+package com.mteng.vo.dated;
 
 import java.util.ArrayList;
 import java.util.List;

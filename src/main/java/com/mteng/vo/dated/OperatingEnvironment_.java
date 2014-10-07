@@ -1,4 +1,4 @@
-package com.mteng.json.vb;
+package com.mteng.vo.dated;
 
 /**
  * This is the OperatingEnvironment in Peer element
