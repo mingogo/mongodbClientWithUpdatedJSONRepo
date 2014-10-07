@@ -8,7 +8,8 @@ public class JSONMasterBuilder {
 	 * Build the master JSON. 
 	 * @return Completed JSON, a regular POJO. 
 	 */
-	public Object resultingJSON(){
+	// public Object resultingJSON(){
+	public String resultingJSON(){
 
 		MasterJSON masterJSON = new MasterJSON();
 		EntityBuilder entityBuilder = new EntityBuilder();

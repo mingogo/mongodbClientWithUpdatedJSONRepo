@@ -11,9 +11,8 @@ public class RunJSONMasterBuilder {
 		ObjectToJSON objectToJSON = new ObjectToJSON();
 
 		JSONMasterBuilder JSONMaster = new JSONMasterBuilder();
-		String output = (String) objectToJSON.convertedJSON(JSONMaster.resultingJSON());
 
-		String Indentedoutput = (String) prettyPrints.resultingJson(output);
+		String Indentedoutput = prettyPrints.resultingJson(JSONMaster.resultingJSON());
 		System.out.println(Indentedoutput);
 	}
 }
