@@ -9,6 +9,10 @@ import com.mteng.vo.updatedJSON.*;;
 
 public class JSONMasterBuilder_AllInOne {
 
+	/**
+	 * The main method to run the all in one. 
+	 * @param args
+	 */
 	public static void main(String[] args){
 
 		PrettyPrints prettyPrints = new PrettyPrints();
